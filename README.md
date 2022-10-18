@@ -28,6 +28,6 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/W2HGalaxy-OP/W2H-MUSIC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shrink99b/kri)
 
 ᴜꜱᴇ [Repl Link](https://replit.com/@pawanjatt/evilmusicbot) ᴛᴏ ɢᴇᴛ ᴘʏʀᴏɢʀᴀᴍ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ
