@@ -97,7 +97,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 @errors
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **Processing Via ✨W2H Music✨**")
+    lel = await message.reply("🔄 **Processing Via ✨HUB✨**")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -106,7 +106,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Channel",
-                        url="https://t.me/W2HSupport")
+                        url="https://t.me/hjhvvl")
                    
                 ]
             ]
@@ -132,7 +132,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="Channel",
-                            url=f"https://t.me/W2HSupport")
+                            url=f"https://t.me/hjhvvl")
 
                     ]
                 ]
@@ -196,7 +196,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += ' ' + str(i)
         print(query)
-        await lel.edit("🎵 **Processing Via ✨W2H Music✨**")
+        await lel.edit("🎵 **Processing Via ✨HUB✨**")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
